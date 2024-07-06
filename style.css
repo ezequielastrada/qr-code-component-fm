@@ -28,7 +28,7 @@ body {
     height: 497px;
     text-align: center;
     box-shadow: 16px 19px 17px rgba(0, 0, 0, 0.1);
-    border-radius: 1rem;
+    border-radius: 1.25rem;
 }
 
 .card-container {
@@ -38,17 +38,19 @@ body {
 .card-container img{
     width: 288px;
     height: 288px;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 .card-container h2{
     color: var(--Dark-blue);
     font-weight: 700;
     margin: 5% auto;
+    font-size: 22px;
 }
 
 .card-container p{
     color: var(--Grayish-blue);
     font-weight: 400;
     margin: 1rem 0;
+    font-size: 14px;
 }
